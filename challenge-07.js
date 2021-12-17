@@ -14,7 +14,6 @@ const windSpeed = 20;
 const windDirection = "NNE";
 
 const storeWeatherConditions = (temperature, condition, windSpeed, windDirection) => {
-  // Code here!
   convertTemp = Math.round((temperature - 32) * 5 / 9);
   convertSpeed = Math.round(windSpeed / 2.237);
   return {

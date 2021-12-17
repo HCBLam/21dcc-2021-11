@@ -12,7 +12,6 @@ const exampleAstronaut = {
 const job = 'Shuttle DJ';
 
 const addJobToAstronaut = (astronaut, job) => {
-  // Code here!
   astronaut.job = job;
   return astronaut;
 

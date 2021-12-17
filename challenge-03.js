@@ -11,12 +11,11 @@ const exampleGauge = {
 };
 
 const checkGaugeStatus = (gauge) => {
-  // Code here!
   if (gauge.current > gauge.min && gauge.current < gauge.max) {
     return true
-  } else {
-    return false
   }
+
+  return false
 };
 
 checkGaugeStatus(exampleGauge);

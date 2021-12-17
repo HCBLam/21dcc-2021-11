@@ -28,13 +28,11 @@ const checks = {
 };
 
 const confirmReentryPlans = (speed, missionData, checks) => {
-  // Code here!
   if (speed > checks.maxSpeed || speed < checks.minSpeed) {
     return false;
   };
 
   for (const data in missionData) {
-    console.log('data.length ==> ', data.length)
     if (missionData[data].length !== checks.dataEntries[data]) {
       return false;
     }

@@ -19,7 +19,6 @@ const specificToggle = "toggleA";
 
 
 const switchSpecificToggle = (toggleList, specificToggle) => {
-  // Code here!
   toggleList.forEach(toggle => {
     if (toggle.name === specificToggle) {
       toggle.isOn = !toggle.isOn;

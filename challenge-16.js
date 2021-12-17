@@ -16,7 +16,6 @@ Each object contains the altitude in meters, and a time stamp in seconds.
   }
 
   const getAverageSpeed = (firstPosition, secondPosition) => {
-    // code here!
     const altDiff = secondPosition.altitude - firstPosition.altitude;
     const timeDiff = secondPosition.time - firstPosition.time;
 
@@ -30,4 +29,4 @@ getAverageSpeed(firstPosition, secondPosition);
 
 
 // Note:  .toFixed() returns a string!
-// So need to convert to number using Number().
+// So need to convert back to number using Number().

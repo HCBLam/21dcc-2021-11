@@ -17,7 +17,6 @@ const toggleList = [
 ];
 
 const switchAllTogglesOn = (toggleList) => {
-  // Code here!
   toggleList.forEach(toggle => toggle.isOn = true);
   return toggleList;
 };

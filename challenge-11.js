@@ -21,7 +21,6 @@ const platformList = [
 ];
 
 const bookFreePlatform = (platformList, missionDate) => {
-  // Code here!
   for (let i = 0; i < platformList.length; i++ ) {
     if (platformList[i].bookDate === undefined) {
       platformList[i].bookDate = missionDate;

@@ -15,8 +15,6 @@ const listOfReceivedData = [
 ]
 
 const organizeData = (receivedData) => {
-  // Code here!
-
   const finalObject = {};
 
   receivedData.forEach(item => {

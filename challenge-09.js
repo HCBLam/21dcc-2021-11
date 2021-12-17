@@ -17,7 +17,6 @@ const exampleRoster = [
 ];
 
 const listAstronautJobs = (roster) => {
-  // Code here!
   const jobArray = [];
 
   for (const astronaut of roster) {

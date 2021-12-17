@@ -20,7 +20,6 @@ const gaugeList = [
 ];
 
 const checkAllGauges = (gaugeList) => {
-  // Code here!
   for (let gauge of gaugeList) {
     if ((gauge.current < gauge.min) || (gauge.current > gauge.max)) {
       return false;

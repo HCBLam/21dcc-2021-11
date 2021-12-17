@@ -11,7 +11,6 @@ const messages = [
 ];
 
 const parseTranscripts = (messages) => {
-  // Code here!
   const parsedMessages = messages.map(message => `${message.origin}: ${message.message}`)
   return parsedMessages;
 };

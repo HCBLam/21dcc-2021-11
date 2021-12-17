@@ -12,9 +12,9 @@ const missionName = "Moon visit";
 const timeRemaining = (launchDate, missionName, fakeToday) => {
   const today = fakeToday || new Date() // Do not alter this line!
 
-  // Code here!
   // Use Date.parse() to convert string dates into millisecond dates.
   const timeDifference = Date.parse(launchDate) - Date.parse(today)
+
   // There are 1000*60*60*24 milliseconds in a day (86,400,000).
   const dayDifference = Math.round((timeDifference / 86400000))
 

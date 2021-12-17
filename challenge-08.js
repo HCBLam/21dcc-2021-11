@@ -15,7 +15,6 @@ const exampleRoster = [
 ];
 
 const countActiveAstronauts = (roster) => {
-  // Code here!
   return roster.length
 };
 

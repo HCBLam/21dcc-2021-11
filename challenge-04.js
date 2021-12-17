@@ -11,7 +11,6 @@ const someToggle = {
 };
 
 const switchToggle = (toggle) => {
-  // Code here!
   toggle.isOn ? toggle.isOn = false : toggle.isOn = true;
   return toggle;
 

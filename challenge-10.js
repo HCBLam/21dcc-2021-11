@@ -19,7 +19,6 @@ const exampleEntries = [
 ];
 
 const averageWindSpeed = (weatherEntries) => {
-  // Code here!
   let totalWindSpeed = 0;
 
   for (let i =0; i < weatherEntries.length; i++) {
